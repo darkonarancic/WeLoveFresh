@@ -1,0 +1,61 @@
+.panel {
+    position: fixed;
+    left: -317px; /*or width of your navigation panel*/
+    width: 371px; /*should match the above value*/
+   	background: #fff;
+   	-webkit-border-radius: 0;
+   	-moz-border-radius: 0;
+   	border-radius: 0;
+   	-webkit-box-shadow: -4px 0 0 rgba(255,255,255, 0), 0 -4px 0 rgba(255,255,255, 0), 0 4px 0 rgba(255,255,255, 0), 4px 0 4px rgba(0,0,0,0.2);
+   	-moz-box-shadow: -4px 0 0 rgba(255,255,255, 0), 0 -4px 0 rgba(255,255,255, 0), 0 4px 0 rgba(255,255,255, 0), 4px 0 4px rgba(0,0,0,0.2);
+   	box-shadow: -4px 0 0 rgba(255,255,255, 0), 0 -4px 0 rgba(255,255,255, 0), 0 4px 0 rgba(255,255,255, 0), 4px 0 4px rgba(0,0,0,0.2);
+   	display: inline-block;
+   	z-index: 10;
+}
+.wrap {
+    position: relative;
+    margin: 0 auto;
+}
+.menu-link {
+	width: 54px;
+	height: 27px;
+	display: inline-block;
+	background: url('../img/menu-link.jpg') no-repeat 50%;
+	margin: 10px 0 0 0;
+}
+.panel ul {
+	width: 297px;
+	padding: 0;
+	margin: 0 0 0 19px;
+	list-style: none;
+}
+	.panel ul.colored {
+		background: #f3f4f6;
+		margin: 10px 0 0 19px;
+	}
+.panel ul li {
+	width: 100%;
+	height: 55px;
+	border-bottom: 1px solid #a8b9c1;
+}
+	.panel ul:first-of-type li:first-child {
+		border-top: 1px solid #a8b9c1;
+	}
+.panel ul li a {
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #002f43;
+	vertical-align: middle;
+	line-height: 55px;
+	padding-left: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+	.panel ul li a:hover,
+	.panel ul li a:active {
+		background: #003046;	
+		color: #feffff;
+	}
