@@ -53,9 +53,12 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	text-decoration: none;
+	-webkit-transition: background 0.3s ease;
+	-moz-transition: background 0.3s ease;
+	transition: background 0.3s ease;
 }
 	.panel ul li a:hover,
-	.panel ul li a:active {
+	.panel ul li a.active {
 		background: #003046;	
 		color: #feffff;
 	}
