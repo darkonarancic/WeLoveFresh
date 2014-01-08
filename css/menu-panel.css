@@ -10,7 +10,7 @@
    	-moz-box-shadow: -4px 0 0 rgba(255,255,255, 0), 0 -4px 0 rgba(255,255,255, 0), 0 4px 0 rgba(255,255,255, 0), 4px 0 4px rgba(0,0,0,0.2);
    	box-shadow: -4px 0 0 rgba(255,255,255, 0), 0 -4px 0 rgba(255,255,255, 0), 0 4px 0 rgba(255,255,255, 0), 4px 0 4px rgba(0,0,0,0.2);
    	display: inline-block;
-   	z-index: 10;
+   	z-index: 101;
 }
 .wrap {
     position: relative;
@@ -56,6 +56,7 @@
 	-webkit-transition: background 0.3s ease;
 	-moz-transition: background 0.3s ease;
 	transition: background 0.3s ease;
+	font-family: 'achille_fy_lregular';
 }
 	.panel ul li a:hover,
 	.panel ul li a.active {
