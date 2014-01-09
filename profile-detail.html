@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="css/main.css" />
 		<link rel="stylesheet" href="fonts/wlf-fonts.css" />
 		<link rel="stylesheet" href="css/menu-panel.css" />
+		<link rel="stylesheet" href="css/profile-detail.css" />
 
 	</head>
 	<body>
@@ -134,25 +135,69 @@
 				</nav>
 
 			</header>
-			<section id="main">
-				<div class="banner text-center">
-					<img src="img/demo/b2.jpg" />
-					<div class="banner-form col-lg-2">
-						<div class="row-full pos-rel">
-							<h2 class="big">Wachtwoord vergeten?</h2>
-							<p class="gray">
-								Wij sturen u een e-mail met een link om uw wachtwoord opnieuw in te stellen.
-							</p>
-							<span class="lbl"> E-mailadres </span>
-							<input type="text" class="txt-border col-xs-12" placeholder="" />
-							<div class="h-sep-medium"></div>
-							<input type="submit" class="btn btn-block btn-orange" value="Verzenden" />
-							<div class="line-sep-gray"></div>
-							<div class="links">
-								<span>Terug naar <a href="#">login</a> pagina.</span>
-							</div>
+			<section id="main" class="container">
+				<div class="h-sep-big"></div>
+				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 ">
+					<div class="alert alert-danger">
+						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">
+							&times;
+						</button>
+						<span>Oeps, er is helaas iets mis gegaan.</span>
+						<p class="gray">
+							Change this and that and try again. Duis mollis, est non commodo luctus, nisi erat
+							porttitor ligula, eget lacinia odio sem nec elit. Cras mattis purus sit amet fermentum.
+						</p>
+						<div class="h-sep-small"></div>
+						<a href="#" class="btn btn-black-border">Take this action</a>&nbsp;
+						<a href="#" class="btn btn-black-border">Or do this</a>
+					</div>
+					<div class="alert alert-success">
+						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">
+							&times;
+						</button>
+						<span>Je profiel gegevens zijn succesvol opgeslagen!</span>
+						<p class="gray">
+							Change this and that and try again. Duis mollis, est non commodo luctus, nisi erat
+							porttitor ligula, eget lacinia odio sem nec elit. Cras mattis purus sit amet fermentum.
+						</p>
+						<div class="h-sep-small"></div>
+						<a href="#" class="btn btn-black-border">Take this action</a>&nbsp;
+						<a href="#" class="btn btn-black-border">Or do this</a>
+					</div>
+					<div class="alert alert-warning">
+						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">
+							&times;
+						</button>
+						<span>Let op! Vergeet niet dit te doen.</span>
+						<p class="gray">
+							Change this and that and try again. Duis mollis, est non commodo luctus, nisi erat
+							porttitor ligula, eget lacinia odio sem nec elit. Cras mattis purus sit amet fermentum.
+						</p>
+						<div class="h-sep-small"></div>
+						<a href="#" class="btn btn-black-border">Take this action</a>&nbsp;
+						<a href="#" class="btn btn-black-border">Or do this</a>
+					</div>
+					<h2 class="big">Profielgegevens</h2>
+					<div class="row-full">
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+							<span class="lbl">WHVV registratienr.</span>
+						</div>
+						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 links">
+							<span class="lbl">13970204064003</span>
 						</div>
 					</div>
+					<div class="row-full">
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+							<span class="lbl account">Profielfoto</span>
+						</div>
+						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 links">
+							<img src="img/accout-ico.jpg" alt="" class="pull-left"/>
+							<button type="submit" class="btn btn-small btn-blue btn-profile">Kies foto</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
+
 				</div>
 			</section>
 			<footer>
