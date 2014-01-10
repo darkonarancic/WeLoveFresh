@@ -4,3 +4,17 @@
 .btn-profile {
 	margin: 35px 0 0 20px;
 }
+.radio-box {
+	height: 40px;
+	color: #003045;
+    font-family: 'varelaregular';
+    font-size: 1em;
+    vertical-align: middle;
+    line-height: 40px;
+}
+	.radio-box > * {
+    	font-weight: normal;
+    	margin-right: 10px;
+    	vertical-align: bottom;
+    	cursor: pointer;
+	}
