@@ -3,7 +3,6 @@
 	<head>
 		<title>Wij houden van vers</title>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/bootstrap.css" />
 		<link rel="stylesheet" href="css/main.css" />
@@ -60,7 +59,7 @@
 		<section class="wrap push">
 			<header>
 				<section class="container text-right">
-					<a href="#" class="logo col-lg-6 col-md-6 col-sm-8 hidden-xs pull-left"> <img src="img/logo.png" alt="" /> </a>
+					<a href="#" class="logo col-lg-6 col-md-6 col-sm-6 col-xs-6 pull-left"> <img src="img/logo.png" alt="" /> </a>
 					<div class="col-lg-6 col-md-6 col-sm-4">
 						<div class="hidden-xs links">
 							<a href="#">Aanmelden</a><span class="sep"> | </span><a href="#">Inloggen</a>
@@ -138,7 +137,7 @@
 			</header>
 			<section id="main" class="container">
 				<div class="h-sep-big"></div>
-				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 ">
+				<div class="col-xs-8">
 					<div class="alert alert-danger">
 						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">
 							&times;
@@ -178,124 +177,288 @@
 						<a href="#" class="btn btn-black-border">Take this action</a>&nbsp;
 						<a href="#" class="btn btn-black-border">Or do this</a>
 					</div>
-					<h2 class="big">Profielgegevens</h2>
-					<div class="row-full">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-							<span class="lbl">WHVV registratienr.</span>
+					<form id="profile-edit">
+						<h2 class="big">Profielgegevens</h2>
+						<div class="row-full">
+							<div class="col-xs-4">
+								<span class="lbl">WHVV registratienr.</span>
+							</div>
+							<div class="col-xs-8 links">
+								<span class="lbl">13970204064003</span>
+							</div>
 						</div>
-						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 links">
-							<span class="lbl">13970204064003</span>
+						<div class="row-full h-sep-small">
+							<div class="col-xs-4">
+								<span class="lbl account">Profielfoto</span>
+							</div>
+							<div class="col-xs-8 links">
+								<img src="img/accout-ico.jpg" alt="" class="pull-left"/>
+								<a href="#" class="btn btn-small btn-blue btn-profile">Kies foto</a>
+							</div>
 						</div>
-					</div>
-					<div class="row-full h-sep-small">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-							<span class="lbl account">Profielfoto</span>
+						<div class="row-full h-sep-medium">
+							<div class="col-xs-4">
+								<span class="lbl">Voornaam</span>
+							</div>
+							<div class="col-xs-8">
+								<input type="text" class="txt-border" name="firstname" autofocus="autofocus" />
+							</div>
 						</div>
-						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 links">
-							<img src="img/accout-ico.jpg" alt="" class="pull-left"/>
-							<button type="submit" class="btn btn-small btn-blue btn-profile">Kies foto</button>
+						<div class="row-full h-sep-small">
+							<div class="col-xs-4">
+								<span class="lbl">Tussenvoegsel</span>
+							</div>
+							<div class="col-xs-8">
+								<input type="text" class="txt-border" name="middlename" />
+							</div>
 						</div>
-					</div>
-					<div class="row-full h-sep-medium">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-							<span class="lbl">Voornaam</span>
+						<div class="row-full h-sep-small">
+							<div class="col-xs-4">
+								<span class="lbl">Achternaam</span>
+							</div>
+							<div class="col-xs-8">
+								<input type="text" class="txt-border" name="lastname" />
+							</div>
 						</div>
-						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-							<input type="text" class="txt-border" />
+						<div class="row-full h-sep-small">
+							<div class="col-xs-4">
+								<span class="lbl">Geslacht</span>
+							</div>
+							<div class="col-xs-8 radio-box">
+								<label><input type="radio" name="sex"/> Vrouw</label>
+								<label><input type="radio" name="sex" checked="checked" /> Man</label>
+							</div>
 						</div>
-					</div>
-					<div class="row-full h-sep-small">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-							<span class="lbl">Tussenvoegsel</span>
-						</div>
-						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-							<input type="text" class="txt-border" />
-						</div>
-					</div>
-					<div class="row-full h-sep-small">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-							<span class="lbl">Achternaam</span>
-						</div>
-						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-							<input type="text" class="txt-border" />
-						</div>
-					</div>
-					<div class="row-full h-sep-small">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-							<span class="lbl">Geslacht</span>
-						</div>
-						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 radio-box">
-							<label><input type="radio" name="sex"/> Vrouw</label>
-							<label><input type="radio" name="sex"/> Man</label>
-						</div>
-					</div>
-					<div class="row-full h-sep-small">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-							<span class="lbl">Achternaam</span>
-						</div>
-						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-							<div class="row">
-								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-									<div class="styled-select">
-										<select>
-											<option value=""> </option>
-											<option value="18">18</option>
-										</select>
+						<div class="row-full h-sep-small">
+							<div class="col-xs-4">
+								<span class="lbl">Geboortedatum</span>
+							</div>
+							<div class="col-xs-8">
+								<div class="row">
+									<div class="col-xs-3">
+										<div class="styled-select">
+											<select name="day" title="The day is required">
+												<option value="0"> </option>
+												<option value="18">18</option>
+											</select>
+										</div>
 									</div>
-								</div>
-								<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-									<div class="styled-select">
-										<select>
-											<option value=""> </option>
-											<option value="Augustus">Augustus</option>
-										</select>
+									<div class="col-xs-5">
+										<div class="styled-select">
+											<select name="month" title="The month is required">
+												<option value="0"> </option>
+												<option value="8">Augustus</option>
+											</select>
+										</div>
 									</div>
-								</div>
-								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-									<div class="styled-select">
-										<select>
-											<option value=""> </option>
-											<option value="1974">1974</option>
-										</select>
+									<div class="col-xs-4">
+										<div class="styled-select">
+											<select name="year" title="The year is required">
+												<option value="0"> </option>
+												<option value="1974">1974</option>
+											</select>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
+						<div class="row-full h-sep-small">
+							<div class="col-xs-4">
+								<span class="lbl">Mobiele telefoon</span>
+							</div>
+							<div class="col-xs-8">
+								<input type="text" class="txt-border" />
+							</div>
+						</div>
+						<div class="row-full h-sep-small">
+							<div class="col-xs-4">
+								<span class="lbl">Vaste telefoon</span>
+							</div>
+							<div class="col-xs-8">
+								<input type="text" class="txt-border" />
+							</div>
+						</div>
+						<div class="row-full h-sep-small">
+							<div class="col-xs-4">
+								<span class="lbl">Skype</span>
+							</div>
+							<div class="col-xs-8">
+								<input type="text" class="txt-border" />
+							</div>
+						</div>
+						<div class="line-sep-gray h-sep-big"></div>
+						<div class="row-full">
+							<div class="col-xs-4">
+								<span class="text-left lbl normal">Adres - Thuis</span>
+							</div>
+						</div>
+						<div class="h-sep-medium"></div>
+						<div class="row-full h-sep-small">
+							<div class="col-xs-4">
+								<span class="lbl">Naam</span>
+							</div>
+							<div class="col-xs-8">
+								<input type="text" class="txt-border" name="homeName" />
+							</div>
+						</div>
+						<div class="row-full h-sep-small">
+							<div class="col-xs-4">
+								<span class="lbl">Straat</span>
+							</div>
+							<div class="col-xs-8">
+								<input type="text" class="txt-border" name="homeStreet" />
+							</div>
+						</div>
+						<div class="row-full h-sep-small">
+							<div class="col-xs-4">
+								<span class="lbl">Postcode &amp; huisnr.</span>
+							</div>
+							<div class="col-xs-8">
+								<div class="row">
+									<div class="col-xs-8">
+										<input type="text" class="txt-border siblings" name="homePostcode" />
+									</div>
+									<div class="col-xs-4">
+										<input type="text" class="txt-border siblings" name="homeHouseNo" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row-full h-sep-small">
+							<div class="col-xs-4">
+								<span class="lbl">Plaats</span>
+							</div>
+							<div class="col-xs-4">
+								<input type="text" class="txt-border" name="homeLocation" />
+							</div>
+						</div>
+						<div class="h-sep-big"></div>
+						<div class="row-full">
+							<div class="col-xs-12">
+								<span class="text-left lbl normal">Adres - Werkadres  (<a href="#">verwijderen</a>)</span>
+							</div>
+						</div>
+						<div class="h-sep-medium"></div>
+						<div class="row-full h-sep-small">
+							<div class="col-xs-4">
+								<span class="lbl">Naam</span>
+							</div>
+							<div class="col-xs-8">
+								<input type="text" class="txt-border" name="workName" />
+							</div>
+						</div>
+						<div class="row-full h-sep-small">
+							<div class="col-xs-4">
+								<span class="lbl">Straat</span>
+							</div>
+							<div class="col-xs-8">
+								<input type="text" class="txt-border" name="workStreet" />
+							</div>
+						</div>
+						<div class="row-full h-sep-small">
+							<div class="col-xs-4">
+								<span class="lbl">Postcode &amp; huisnr.</span>
+							</div>
+							<div class="col-xs-8">
+								<div class="row">
+									<div class="col-xs-8">
+										<input type="text" class="txt-border siblings" name="workPostcode" />
+									</div>
+									<div class="col-xs-4">
+										<input type="text" class="txt-border siblings" name="workHouseNo" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row-full h-sep-small">
+							<div class="col-xs-4">
+								<span class="lbl">Plaats</span>
+							</div>
+							<div class="col-xs-8">
+								<input type="text" class="txt-border" name="workLocation"/>
+							</div>
+						</div>
+						
+						<div class="h-sep-big"></div>
+					</form>
+					<form id="newAddressForm" >
+						<div class="row-full form-bg-light-blue">
+							<div class="row-full">
+								<div class="col-xs-4">
+									<span class="text-left lbl normal">Nieuw adres</span>
+								</div>
+							</div>
+							<div class="row-full h-sep-small">
+								<div class="col-xs-4">
+									<span class="lbl">Naam</span>
+								</div>
+								<div class="col-xs-8">
+									<input type="text" class="txt-border" name="newName" />
+								</div>
+							</div>
+							<div class="row-full h-sep-small">
+								<div class="col-xs-4">
+									<span class="lbl">Straat</span>
+								</div>
+								<div class="col-xs-8">
+									<input type="text" class="txt-border" name="newStreet" />
+								</div>
+							</div>
+							<div class="row-full h-sep-small">
+								<div class="col-xs-4">
+									<span class="lbl">Postcode &amp; huisnr.</span>
+								</div>
+								<div class="col-xs-8">
+									<div class="row">
+										<div class="col-xs-8">
+											<input type="text" class="txt-border siblings" name="newPostcode"/>
+										</div>
+										<div class="col-xs-4">
+											<input type="text" class="txt-border siblings" name="newHouseNo" />
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row-full h-sep-small">
+								<div class="col-xs-4">
+									<span class="lbl">Plaats</span>
+								</div>
+								<div class="col-xs-8">
+									<input type="text" class="txt-border" name="newLocation"/>
+								</div>
+							</div>
+						</div>
+						
+						<div class="h-sep-big"></div>
+						<div class="row-full text-center">
+							<input type="submit" class="btn btn-blue btn-small" value="Nog een adres toevoegen" />
+						</div>
+					</form>
+					<div class="h-sep-big"> </div>
+					<div class="line-sep-gray"> </div>
+					<div class="row-full text-center h-sep-big">
+						<input type="submit" class="btn btn-orange" form="profile-edit" value="Wijzigingen opslaan" />
 					</div>
-					<div class="row-full h-sep-small">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-							<span class="lbl">Mobiele telefoon</span>
-						</div>
-						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-							<input type="text" class="txt-border" />
-						</div>
-					</div>
-					<div class="row-full h-sep-small">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-							<span class="lbl">Vaste telefoon</span>
-						</div>
-						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-							<input type="text" class="txt-border" />
-						</div>
-					</div>
-					<div class="row-full h-sep-small">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-							<span class="lbl">Skype</span>
-						</div>
-						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-							<input type="text" class="txt-border" />
-						</div>
-					</div>
-					<div class="line-sep-gray h-sep-big"></div>
+					<div class="h-sep-big"> </div>
 					
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
-
+				<div class="col-xs-4 hidden-xs">
+					<ul class="right-menu">
+						<li class="active">
+							<a href="#">Profielgegevens</a>
+						</li>
+						<li>
+							<a href="#">Instellingen</a>
+						</li>
+						<li>
+							<a href="#">Meldingen</a>
+						</li>
+					</ul>
 				</div>
 			</section>
 			<footer>
 				<div class="container">
-					<div class="col-lg-4">
+					<div class="col-xs-4">
 						<ul class="small-arrow ">
 							<li>
 								<a href="#">Over WijHoudenVanVers</a>
@@ -321,7 +484,7 @@
 						<a href="#" class="mini-tix hover-footer-link"></a>
 						<a href="#" class="my-order hover-footer-link"></a>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-xs-4">
 						<h4>Klantenservice
 						<br/>
 						Heb je vragen of opmerkingen? </h4>
@@ -334,24 +497,26 @@
 							antwoord er al tussen.
 						</p>
 					</div>
-					<div class="col-lg-4 col-push-lg-1 pull-right">
-						<h4>Volg ons op:</h4>
-						<a href="#" class="twitter"></a>
-						<a href="#" class="facebook"></a>
-						<a href="#" class="youtube"></a>
-						<a href="#" class="google"></a>
-						<a href="#" class="pinterest"></a>
-						<div class="h-sep-big"></div>
-						<h4>Blijf op de hoogte!</h4>
-						<p>
-							Meld je aan voor onze nieuwsbrief
-						</p>
-						<div class="h-sep-small"></div>
-						<div class="row-full">
-							<form class="">
-								<input type="text" placeholder="je e-mailadres..." class="input-left" />
-								<input type="submit" class="btn btn-right btn-mail" value="" />
-							</form>
+					<div class="col-xs-4 pull-right">
+						<div class="row">
+							<h4>Volg ons op:</h4>
+							<a href="#" class="twitter"></a>
+							<a href="#" class="facebook"></a>
+							<a href="#" class="youtube"></a>
+							<a href="#" class="google"></a>
+							<a href="#" class="pinterest"></a>
+							<div class="h-sep-big"></div>
+							<h4>Blijf op de hoogte!</h4>
+							<p>
+								Meld je aan voor onze nieuwsbrief
+							</p>
+							<div class="h-sep-small"></div>
+							<div class="row-full">
+								<form class="">
+									<input type="text" placeholder="je e-mailadres..." class="input-left" />
+									<input type="submit" class="btn btn-right btn-mail" value="" />
+								</form>
+							</div>
 						</div>
 					</div>
 					<div class="sep"></div>
@@ -369,6 +534,10 @@
 	<!-- scripts -->
 	<script src="js/jquery-v2.0.3.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/perfect-scrollbar/jquery.mousewheel.js"></script>
+	<script src="js/perfect-scrollbar/perfect-scrollbar.js"></script>
 	<script src="js/jquery.big-slide.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/profile-validation.js"></script>
 </html>

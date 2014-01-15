@@ -3,13 +3,14 @@
 	<head>
 		<title>Wij houden van vers</title>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/bootstrap.css" />
 		<link rel="stylesheet" href="css/main.css" />
 		<link rel="stylesheet" href="fonts/wlf-fonts.css" />
 		<link rel="stylesheet" href="css/menu-panel.css" />
-
+		<link rel="stylesheet" href="css/profile-detail.css" />
+		
+		<script src="js/modernizr.custom.06638.js"></script>
 	</head>
 	<body>
 		<nav id="menu" class="panel" role="navigation">
@@ -135,25 +136,107 @@
 
 			</header>
 			<section id="main" class="container">
-				<div class="content-top-padding">
-					<div class="col-xs-7">
-						<h1 class="big"> Helaas.. </h1>
-						<p class="big-blue">
-							Er zijn geen versspecialisten voor je postcode gevonden.
-							Blijf op de hoogte lorem ipsum lorem ipsum.
-						</p>
-						<div class="h-sep-medium"></div>
+				<div class="h-sep-big"></div>
+				<div class="col-xs-8">
+					<form id="settings-form">
+						<h2 class="big">Instellingen</h2>
+						<div class="h-sep-big"> </div>
 						<div class="row-full">
-							<form class="">
-								<input type="text" placeholder="Vul hier je je e-mailadres in..." class="input-left bg-color" />
-								<input type="submit" class="btn btn-right btn-mail" value="" />
-							</form>
+							<div class="col-xs-12">
+								<span class="text-left lbl normal">Wachtwoord wijzigen</span>
+							</div>
 						</div>
-						<a href="#" class="btn btn-orange big-top">Bekijk de demo</a>
-					</div>
-					<div class="col-xs-3 pull-right">
-						<img src="img/helaas.png" alt="" />
-					</div>
+						
+						<form>
+							<div class="row-full h-sep-medium">
+								<div class="col-xs-5">
+									<span class="lbl">Nieuw watctwoord</span>
+								</div>
+								<div class="col-xs-7">
+									<input type="text" class="txt-border" name="" autofocus="autofocus" />
+								</div>
+							</div>
+							<div class="row-full h-sep-small">
+								<div class="col-xs-5">
+									<span class="lbl">Herhaal nieuw wachtwoord</span>
+								</div>
+								<div class="col-xs-7">
+									<input type="text" class="txt-border" name="" />
+								</div>
+							</div>
+							<div class="row-full h-sep-small">
+								<div class="col-xs-5">
+									<span class="lbl"></span>
+								</div>
+								<div class="col-xs-7">
+									<input type="submit" class="btn btn-orange" form="profile-edit" value="Wijzigingen opslaan" />
+								</div>
+							</div>
+						</form>
+						<div class="line-sep-gray h-sep-big"></div>
+						<form>
+							<div class="row-full">
+								<div class="col-xs-12">
+									<span class="text-left lbl normal">Emailadres wijzigen</span>
+								</div>
+							</div>
+							<div class="row-full h-sep-small">
+								<div class="col-xs-5">
+									<span class="lbl">Nieuw emailadres</span>
+								</div>
+								<div class="col-xs-7">
+									<input type="text" class="txt-border" name="" />
+								</div>
+							</div>
+							<div class="row-full h-sep-small">
+								<div class="col-xs-5">
+									<span class="lbl"></span>
+								</div>
+								<div class="col-xs-7">
+									<input type="submit" class="btn btn-orange" form="profile-edit" value="Wijzigingen opslaan" />
+								</div>
+							</div>
+						</form>
+						<div class="line-sep-gray h-sep-big"></div>
+						<form>
+							<div class="row-full">
+								<div class="col-xs-12">
+									<span class="text-left lbl normal">Mobiele telefoon wijzigen</span>
+								</div>
+							</div>
+							<div class="row-full h-sep-small">
+								<div class="col-xs-5">
+									<span class="lbl">Nieuw mobiele telefoon</span>
+								</div>
+								<div class="col-xs-7">
+									<input type="text" class="txt-border" name="" />
+								</div>
+							</div>
+							<div class="row-full h-sep-small">
+								<div class="col-xs-5">
+									<span class="lbl"></span>
+								</div>
+								<div class="col-xs-7">
+									<input type="submit" class="btn btn-orange" form="profile-edit" value="Wijzigingen opslaan" />
+								</div>
+							</div>
+						</form>
+					</form>
+					<div class="h-sep-big"> </div>
+					
+				</div>
+				<div class="col-xs-4 hidden-xs">
+					<ul class="right-menu">
+						<li>
+							<a href="#">Profielgegevens</a>
+						</li>
+						<li class="active">
+							<a href="#">Instellingen</a>
+						</li>
+						<li>
+							<a href="#">Meldingen</a>
+						</li>
+					</ul>
 				</div>
 			</section>
 			<footer>
@@ -228,11 +311,13 @@
 				</div>
 			</footer>
 		</section>
+
 	</body>
 
 	<!-- scripts -->
 	<script src="js/jquery-v2.0.3.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.validate.js"></script>
 	<script src="js/jquery.big-slide.js"></script>
 	<script src="js/main.js"></script>
 </html>
