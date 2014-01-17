@@ -34,9 +34,11 @@ header .links {
 }
 .links > * {
 	color: #a3acb1 !important;
-	font-size: 0.875em;
+	font-size: 0.9em;
 	font-family: 'varelaregular';
 	text-align: left !important;
+	font-weight: normal;
+	vertical-align: middle;
 }
 	.links * {
 		color: #a3acb1;
@@ -44,11 +46,12 @@ header .links {
 	.links > span.sep {
 		margin: 10px 10px 5px 0;
 	}
-	.links > span a {
+	.links a {
 		text-decoration: underline;
 	}
-	.links > a:hover {
+	.links a:hover {
 		text-decoration: underline;
+		color: #a3acb1 !important;
 	}
 .basket {
 	min-width: 37px;
@@ -235,8 +238,6 @@ textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
 	max-height: 100%;
 }
 .banner .banner-form {
-	min-width: 270px;
-	max-width: 270px;
 	min-height: 300px;
 	display: inline-block;
 	background: #fff;
@@ -251,6 +252,18 @@ textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
 	text-align: left;
 	padding: 0 25px 25px 25px;
 }
+	.banner .banner-form.login {
+		min-width: 270px;
+		max-width: 270px;
+	}
+	.banner .banner-form.standard {
+		min-width: 270px;
+		max-width: 270px;
+	}
+	.banner .banner-form.register {
+		min-width: 612px;
+		max-width: 612px;
+	}
 .txt-border {
 	width: 100%;
 	height: 40px;
