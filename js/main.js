@@ -1,6 +1,8 @@
 $(document).ready(function() {
-    $('.menu-link').bigSlide();
-    
+	if($('.menu-link').size() > 0){
+    	$('.menu-link').bigSlide();
+   	}
+   	
     if($('#slideshow').size() > 0){
 		$('#slideshow').bjqs({
 		    height      : 275,

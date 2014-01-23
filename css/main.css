@@ -767,3 +767,36 @@ p.gray {
 	display: inline-block;
 	background: url(../img/btn-app-store.jpg) no-repeat 0 0;
 }
+
+/* validation */
+div.error, div[class*=" error-"] {
+	background: #f79f9e;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding-top: 10px;
+}
+	div.error label.error, div[class*=" error-"] label.error {
+		width: 100%;
+		float: left;
+		color: #fff;
+    	font-family: 'varelaregular';
+    	font-size: 0.7em;
+ 		padding: 3px 0 3px 8px;
+ 		margin: 0;
+ 		position: relative;
+		font-size: 0.85em;
+	}
+		div[class*=" error-"] label.error {
+			padding-left: 23px;
+			padding-right: 23px;
+		}
+		div.error label.error:before, div[class*=" error-"] label.error:before {
+			content: "\2022";
+			left: 0px;
+			position: absolute;
+		}
+			div[class*=" error-"] label.error:before {
+				left: 15px;
+			}
+/* eof validation */
