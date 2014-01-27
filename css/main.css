@@ -13,7 +13,11 @@ h2 {
 	color: #003045;
 	line-height: normal;
 	font-weight: normal;
+	margin: 17px 0;
 }
+	h2.bold {
+    	font-family: 'achille_fy_lblack';
+	}
 h4 {
 	font-size: 1em;
 	color: #003045;
@@ -357,6 +361,33 @@ textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
 			a.btn.btn-blue {
 				padding-top: 3px;
 			}
+	.btn.btn-gold {
+		min-height: 0;
+		background: #ba9967;
+		color: #fff;
+    	font-family: 'achille_fy_lregular';
+    	padding: 9px 19px;
+	}
+		.btn.btn-gold.header {
+			margin-top: -22px;
+		}
+	
+	/* icon buttons */
+		.btn-search-header {
+			width: 30px;
+			height: 31px;
+			display: inline-block;
+			background: url(../img/logged-header-ico.png) no-repeat 0 50%;
+			margin-top: 5px;
+		}
+		.btn-account {
+			width: 30px;
+			height: 31px;
+			display: inline-block;
+			background: url(../img/logged-header-ico.png) no-repeat -49px 50%;
+			margin-top: 5px;
+		}
+	/* eof icon buttons */
 		
 /* eof buttons */
 
@@ -800,3 +831,239 @@ div.error, div[class*=" error-"] {
 				left: 15px;
 			}
 /* eof validation */
+
+.panel.active + .wrap .menu-link {
+	visibility: hidden;
+}
+
+/* logged header */
+	.logged-icons *[class*=btn] {
+		margin-right: 15px;
+	}
+/* eof logged header */
+
+.filter-lists {
+	width: 100%;
+	z-index: 100;
+	position: relative;
+	margin-bottom: 20px;
+}
+.filter-lists .list {
+	width: auto;
+	height: 50px;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+	.filter-lists .list li {
+		float: left;
+		height: 50px;
+		margin-left: 30px;
+		line-height: 50px;
+		list-style: none;
+		vertical-align: middle;
+	}
+		
+	.filter-lists .list li:first-child {
+		margin-left: 0;
+	}
+		.filter-lists .list li .sub-list {
+			max-width: 100%;
+			position: absolute;
+			height: 0;
+			opacity: 0;
+			overflow: hidden;
+			-webkit-transition: all 0.4s ease;
+			-moz-transition: all 0.4s ease;
+			transition: all 0.4s ease; 
+			-webkit-box-shadow: 0 -10px 25px rgba(0,0,0,0.04), 0 0 25px rgba(0,0,0,0.3);
+			-moz-box-shadow: 0 -10px 25px rgba(0,0,0,0.04), 0 0 25px rgba(0,0,0,0.3);
+			box-shadow: 0 -10px 25px rgba(0,0,0,0.04), 0 0 25px rgba(0,0,0,0.3);
+			background: #fff;
+			margin: 0 0 0 -100px;
+			float: left;
+		}
+		.filter-lists .list li > a {
+			display: inline-block;
+			background: url(../img/filter-list-arrows.png) no-repeat 100% 120%;
+			padding-right: 24px;
+			color: #94989b;
+			background-clip: border-box;
+			line-height: normal;
+			position: relative;
+			z-index: 101;
+		}
+		.filter-lists .list li > a.active {
+			background-position: 100% -35% ;
+			color: #002536;
+		}
+		.filter-lists .list li > a:hover {
+			text-decoration: none;
+		}
+			.filter-lists .list li:hover > a:after {
+				width: 56px;
+				height: 10px;
+				content: " ";
+				position: absolute;
+				left: 0;
+				right: 0;
+				bottom: -17px;
+				margin: 0 auto;
+				border-bottom: 10px solid #fff;
+				border-left: 28px solid transparent;
+				border-right: 28px solid transparent;
+			}
+			.filter-lists .list li:hover > .sub-list {
+				height: 440px;
+				opacity: 1;
+			}
+			.filter-lists .list li .sub-list .list-box {
+				width: 230px;
+				float: left;
+				margin: 20px 0 20px 20px;
+			}
+				.filter-lists .list li .sub-list .list-box:last-child {
+					margin-right: 20px;
+				}
+			.filter-lists .list li .sub-list a {
+				width: 230px;
+				height: 57px;
+				float: left;
+				border-bottom: 1px solid #b7bbbc;
+				color: #06242c;
+				text-align: left;
+				padding: 0 0 0 10px;
+				background: url(../img/arrow-right.png) no-repeat 95% 50%;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+    			font-family: 'achille_fy_lregular';
+			}
+				.filter-lists .list li .sub-list a:hover {
+					text-decoration: none;
+				}
+				.filter-lists .list li .sub-list a:first-child {
+					border-top: 1px solid #b7bbbc;
+				}
+				.filter-lists .list li .sub-list a.active {
+					background-color: #042335; 
+					color: #fff;
+				}
+.categories figure .img-wrapper {
+	width: 100%;
+	height: 100px;
+	float: left;
+	position: relative;
+}
+	.categories figure {
+		width: 100%;
+		float: left;
+		border: 1px solid #d1d2d4;
+		margin: 0 0 20px 0;
+		padding-bottom: 20px;
+	}
+	.categories figure .img-wrapper h3 {
+		position: absolute;
+		bottom: 12px;
+		left: 15px;
+    	font-family: 'achille_fy_lblack';
+    	color: #fff;
+	}
+	.categories figure .img-wrapper img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+	.categories figure ul {
+		padding: 0px;
+		margin: 20px;
+	}
+	.categories figure ul li {
+		width: 100%;
+		float: left;
+		list-style: none;
+		padding: 0;
+		margin: 0 0 10px 0;
+	}
+	.categories figure ul li a {
+		width: 100%;
+		float: left;
+		background: url(../img/arrow-right.png) no-repeat 100% 50%;
+		font-family: 'achille_fy_lregular';
+    	color: #072734;
+    	font-size: 1.1em;
+   	}
+   		.categories figure figcaption a {
+   			color: #a89060;
+			font-family: 'achille_fy_lregular';
+			position: relative;
+			padding-left: 10px;
+			margin: 0 0 0 20px;
+   		}
+   		.categories figure figcaption a:before {
+   			content: "»";
+   			position: absolute;
+   			left: 0;
+   			top: 0;
+   		}
+.right-placeholder {
+	float: left;
+	min-height: 755px;
+	background: #ced3d7;
+}
+.filter-overflow {
+	width: 100%;
+	height: 0;
+	top: 210px;
+	float: left;
+	background: #fff;
+	opacity: 0;
+	position: fixed;
+	left: 0;
+	z-index: 99;
+	overflow: hidden;
+	-webkit-transition: opacity 0.4s ease;
+	-moz-transition: opacity 0.4s ease;
+	transition: opacity 0.4s ease; 
+	transition-delay: 0.6s;
+	-webkit-transition-delay: 0.6s /* Safari */	
+}
+.filter-lists.hovered + .filter-overflow {
+	height: 100%;
+	opacity: 0.5;
+}
+
+.sub-categories figure .img-wrapper {
+	width: 100%;
+	height: 86px;
+	float: left;
+	position: relative;
+}
+	.sub-categories figure {
+		width: 100%;
+		float: left;
+		margin: 0 0 20px 0;
+	}
+	.sub-categories figure .img-wrapper h3 {
+		position: absolute;
+		bottom: 5px;
+		left: 15px;
+    	font-family: 'achille_fy_lblack';
+    	color: #fff;
+	}
+	.sub-categories figure .img-wrapper img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+@media screen and (min-width: 1025px) { 
+	.wrap .menu-link {
+		visibility: hidden;
+	}
+}
+@media screen and (max-width: 1024px) {
+	body {
+		padding: 12px 0 0 0;
+	}
+	#menu.panel {
+		left: -371px;
+	}
+}

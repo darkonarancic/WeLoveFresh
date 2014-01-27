@@ -12,7 +12,8 @@
       'side': 'left',
       'sideStay': '54',
       'menuWidth': '371',
-      'speed': '300'
+      'speed': '300',
+      'triggerRes': 1024
     }, options);
 
     var menuLink = this,
@@ -47,12 +48,21 @@
       menu._state = 'open';
       menu.css(settings.side, '0');
       push.css(settings.side, (width - settings.sideStay));
+      menu.addClass('active');
+      $('body').css({paddingLeft: "54px"});
     };
 
     menu.close = function() {
       menu._state = 'closed';
-      menu.css(settings.side, '-' + (width - settings.sideStay) + "px");
-      push.css(settings.side, '0');
+      if(settings.triggerRes < $(window).width()){
+	  	menu.css(settings.side, '-' + (width - settings.sideStay) + "px");
+      }
+      else {
+      	menu.css(settings.side, '-' + width + "px");
+      	$('body').css({paddingLeft: "0"});
+      }
+	  push.css(settings.side, '0');
+	  menu.removeClass('active');
     };
 
     menuLink.on('click.bigSlide', function(e) {
@@ -62,6 +72,18 @@
       } else {
         menu.close();
       }
+    });
+    
+    $(window).resize(function(){
+    	if(menu._state != 'open'){
+    	  if(settings.triggerRes < $(window).width()){
+		  	menu.css(settings.side, '-' + (width - settings.sideStay) + "px");
+	      }
+	      else {
+	      	menu.css(settings.side, '-' + width + "px");
+      		$('body').css({paddingLeft: "0"});
+	      }
+	    }
     });
 
     return menu;
