@@ -1054,6 +1054,17 @@ div.error, div[class*=" error-"] {
 		max-width: 100%;
 		max-height: 100%;
 	}
+.link-back, .link-back:hover {
+	float: left;
+	padding-left: 18px;
+	background: url(../img/arrow-left.jpg) no-repeat 0 50%;
+	font-family: 'achille_fy_lregular';
+	font-weight: normal;
+	font-size: 0.65em;
+	color: #062539;
+	text-decoration: none;
+	margin-top: 5px;
+}
 @media screen and (min-width: 1025px) { 
 	.wrap .menu-link {
 		visibility: hidden;
