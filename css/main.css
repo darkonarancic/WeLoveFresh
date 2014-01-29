@@ -1209,6 +1209,36 @@ div.error, div[class*=" error-"] {
 	.text {
 		font-size: 1em;
 	}
+	
+.tool-tip {
+	position: relative;
+}
+.tool-tip:hover:after{
+    background-color: #fff;
+    border-radius: 5px;
+    bottom: 50px;
+    color: #003045;
+    content: attr(title);
+    left: -30%;
+    padding: 10px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+    border: 1px solid #003045;
+}	
+	.tool-tip:before {
+		width: 26px;
+		height: 26px;
+		content: "";
+   		position: absolute;
+   		border: 1px solid #003045;
+   		background: #fff;
+   		-webkit-transform: rotate(45deg);
+   		-moz-transform: rotate(45deg);
+   		transform: rotate(45deg);
+    	z-index: 97;
+    	bottom: 35px;
+	}
 /* eof product details */
 @media screen and (min-width: 1025px) { 
 	.wrap .menu-link {
