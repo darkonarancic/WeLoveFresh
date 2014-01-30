@@ -1215,15 +1215,29 @@ div.error, div[class*=" error-"] {
   	 	font-family: 'varelaregular';
   	 	padding-top: 10px;
 	}
-	.img-box-wrapper span {
+	.img-box-wrapper span, .img-box-wrapper span:hover {
 		width: 100%;
 		float: left;
 		padding: 5px 0;
+		color: #003045;
 	}
 	.text {
 		font-size: 1em;
 	}
-	
+	.link-edit {
+		width: 26px;
+		height: 26px;
+		float: left;
+		margin: 10px 15px 0 0;
+		background: url(../img/product-detail-ico.png) no-repeat 0 0;
+	}
+	.link-like {
+		width: 26px;
+		height: 26px;
+		float: left;
+		margin: 10px 15px 0 0;
+		background: url(../img/product-detail-ico.png) no-repeat 93% 0;
+	}
 .tool-tip {
 	position: relative;
     text-decoration: none;
