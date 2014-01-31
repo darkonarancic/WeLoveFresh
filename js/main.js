@@ -11,4 +11,12 @@ $(document).ready(function() {
 		    animspeed	: 5000
 		});
 	}
+    if($('.landing-slide').size() > 0){
+        $('.landing-slide').bxSlider({
+            slideWidth: 750,
+            minSlides: 4,
+            maxSlides: 4,
+            slideMargin: 0
+        });
+    }
 });
