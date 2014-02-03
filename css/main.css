@@ -364,6 +364,15 @@ textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
     	font-family: 'varelaregular';
 		padding-top: 4px;
 	}
+	.btn.btn-orange.btn-orange-light {
+		background: #f6cdbb;
+		color: #da5a0f;
+	}
+	.btn.btn-small.btn-orange.btn-orange-light {
+		min-height: 29px;
+    	font-family: 'varelaregular';
+    	padding: 2px 15px 0 15px;
+	}
 	.btn.btn-small {
 		min-height: 29px;
     	font-family: 'varelaregular';
@@ -1998,17 +2007,23 @@ div.error, div[class*=" error-"] {
 	height: 60px;
 	line-height: 60px;
 	display: block;
-	position: absolute;
-	top: 58%;
+	position: fixed;
+	top: 60%;
 	left: 0;
 	right: 0;
 	background: #042335;
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;c
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 0 23px;
+    padding: 0 23px 0 80px;
     vertical-align: middle;
 }
+	.checkout-finish.small {
+		height: 43px;
+		line-height: 43px;
+		top: auto;
+		bottom: 0;
+	}
 	.checkout-finish * {
 		color: #fff;
 		display: inline-block;
@@ -2027,7 +2042,7 @@ div.error, div[class*=" error-"] {
 		display: inline-block;
 		height: 20px;
 		padding-left: 30px;
-		background: url(../img/checkout-icons.jpg) no-repeat -1px -122px;
+		background: url(../img/checkout-icons.jpg) no-repeat -2px -122px;
     	font-family: 'varelaregular';
     	line-height: 20px;
     	margin-right: 20px;
@@ -2044,6 +2059,9 @@ div.error, div[class*=" error-"] {
 	.checkout-finish .btn {
 		margin-top: 10px;
 	}
+	.checkout-finish.small .btn {
+		margin-top: 7px;
+	}
 	.checkout-finish .total-price {
 		font-size: 1.2em;
     	font-family: 'achille_fy_lregular';
@@ -2053,6 +2071,30 @@ div.error, div[class*=" error-"] {
     		font-family: 'achille_fy_lblack';
 		}
 /* checkout */
+
+.right-basket {
+	width: 100%;
+	min-height: 600px;
+	float: left;
+	border: 1px solid #c2cece;
+	padding: 0px 9px 9px 9px;	
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+	.right-basket h3 {
+		border-bottom: 1px solid #c2cece;
+		padding-bottom: 15px;
+	}
+	.right-basket > p {
+		height: 100%;
+    	display: table-cell;
+		vertical-align: middle;
+    	font-family: 'achille_fy_lregular';
+    	text-align: center;
+    	font-size: 0.9em;
+    	padding-top: 50%;
+	}
 
 @media screen and (min-width: 1025px) { 
 	.wrap .menu-link {
@@ -2065,5 +2107,8 @@ div.error, div[class*=" error-"] {
 	}
 	#menu.panel {
 		left: -371px;
+	}
+	.checkout-finish {
+		padding: 0 23px;
 	}
 }
