@@ -11,6 +11,7 @@
    	box-shadow: -4px 0 0 rgba(255,255,255, 0), 0 -4px 0 rgba(255,255,255, 0), 0 4px 0 rgba(255,255,255, 0), 4px 0 4px rgba(0,0,0,0.2);
    	display: inline-block;
    	z-index: 101;
+   	position: relative;
 }
 .wrap {
     position: relative;
