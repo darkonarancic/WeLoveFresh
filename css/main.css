@@ -760,12 +760,13 @@ p.gray {
 	position: relative;
 	padding: 0 5px 0 17px;
 	background-position : calc(100% - 10px) 50%;
+	vertical-align: middle;
 }
 
 .styled-select select {
 	width: 170%;
 	height: 40px;
-   	padding: 7px 0px;
+   	padding: 0;
    	margin: 0 0 0 -5px;
    	-webkit-appearance: none;
 	transition: all 0.3s;
@@ -782,6 +783,11 @@ p.gray {
     font-size: 1em;
     font-family: 'varelaregular';
 	text-align: left;
+}
+@-moz-document url-prefix() {
+	.styled-select select {
+	   	padding: 5px 0 0 0;
+	}
 }
 .slider {
 	width: 940px;
@@ -1371,8 +1377,8 @@ div.error, div[class*=" error-"] {
 		margin-top: 26px;
 	}
 	.product-banner .img-wrapper .btn-apsolute {
-		position: absolute;
-		bottom: 40px;
+		position: relative;
+		bottom: 47px;
 		z-index: 100;
 		margin: 0 14px;
 		left: 0;
@@ -1433,15 +1439,24 @@ div.error, div[class*=" error-"] {
 .product .basket {
 	min-width: 35px;
 	margin-top: -2px;
-	background-size: 70%;
-	display: none;
+	background: url(../img/product-basket-ico.png) no-repeat 0 50%;
 }
+	.product .basket.discount {
+		background: url(../img/basket-icon-discount.png) no-repeat 0 50%;
+	}
+	.product .basket.discount span {
+		margin: 10px 0 0 0px;
+		padding: 0 5px;
+		text-align: center;
+		background: #e96f24;
+	}
 	.product .basket span {
 		margin: 10px 0 0 0px;
 		padding: 0 5px;
 		text-align: center;
+		background: #012533;
 	}
-	.product.in-cart .basket {
+	.product.in-cart {
 		display: block;
 	}
 .product .product-title {
@@ -2075,20 +2090,28 @@ div.error, div[class*=" error-"] {
 .right-basket {
 	width: 100%;
 	min-height: 600px;
-	float: left;
+	float: right;
 	border: 1px solid #c2cece;
 	padding: 0px 9px 9px 9px;	
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-	.right-basket h3 {
+	.row-right {
+    	margin-right: -10px;
+	}
+	.right-basket h4 {
 		border-bottom: 1px solid #c2cece;
 		padding-bottom: 15px;
 	}
+		.right-basket h4 a, .right-basket h4 a:hover {
+			padding-left: 18px;
+			background: url(../img/small-arrows-left.jpg) no-repeat 0 150%;
+			color: #032236;
+			text-decoration: none;
+		}
 	.right-basket > p {
 		height: 100%;
-    	display: table-cell;
 		vertical-align: middle;
     	font-family: 'achille_fy_lregular';
     	text-align: center;
