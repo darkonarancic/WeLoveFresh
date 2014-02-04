@@ -19,4 +19,11 @@ $(document).ready(function() {
             slideMargin: 0
         });
     }
+    if($('.cart-trigger').size() > 0) {
+    	$('.cart-trigger').bind('click', function(e){
+    		e.preventDefault();
+    		$(this).parents('.right-basket').toggleClass('active');
+    		$('.cart-overflow').toggleClass('active');
+    	});
+    }
 });

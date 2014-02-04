@@ -1851,16 +1851,32 @@ div.error, div[class*=" error-"] {
 			margin-top: 4px;
 			display: inline-block;
 		}
+		.checkout-table .header .ico-questionmark {
+			height: 20px;
+			float: right;
+			background: url(../img/checkout-icons.jpg) no-repeat 0 100%;
+			padding: 4px 0 0 21px;
+			display: inline-block;
+		}
 		.checkout-table .header .time {
 			float: left;
 			display: inline-block;
 			padding-top: 1px;
 		}
+		.checkout-table .header .time text {
+			width: 0;
+			float: left;
+			overflow: hidden;
+		}
+		.right-basket.active
 .table-content {
 	width: 100%;
 	float: left;
 	padding: 19px;
 	
+}
+.checkout-table.right-basket .table-content {
+	padding: 0;
 }
 .sort-filter {
 	width: 100%;
@@ -1868,7 +1884,7 @@ div.error, div[class*=" error-"] {
 	background: #ced3d7;
 	padding: 12px 10px;
 }
-	.sort-filter a, sort-filter a:hover {
+	.sort-filter a, .sort-filter a:hover {
 		width: 100%;
 		display: block;
 		color: #003045;
@@ -1927,7 +1943,6 @@ div.error, div[class*=" error-"] {
 	.table-content .list-big {
 		width: 21%;	
 		float: left;
-		margin-right: 10px;
 	}
 	.table-content .price {
 		width: 19%;	
@@ -1970,6 +1985,7 @@ div.error, div[class*=" error-"] {
 			position: absolute;
 			right: 60%;
 			bottom: 9px;
+			display: block;
 		}
 	.btn-cancel {
 		width: 10px;
@@ -1986,9 +2002,13 @@ div.error, div[class*=" error-"] {
 			width: 100%;
 			float: left;
 			list-style: none;
-			padding: 0;
-			margin: 15px 0 0 0
+			margin: 15px 0 0 0;
+			vertical-align: bottom;
 		}
+			.total-price li .questionmark {
+				background: url(../img/checkout-icons.jpg) no-repeat 0 100%;
+				padding-left: 35px;
+			}
 			.total-price li strong {
 				padding-right: 2.5%;
 			}
@@ -2032,6 +2052,7 @@ div.error, div[class*=" error-"] {
     box-sizing: border-box;
     padding: 0 23px 0 80px;
     vertical-align: middle;
+    z-index: 106;
 }
 	.checkout-finish.small {
 		height: 43px;
@@ -2096,7 +2117,20 @@ div.error, div[class*=" error-"] {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    background: #fff;
+    -moz-transition-property: width, translateZ(0);
+    -webkit-transition-property: width, translateZ(0);
+    transition-property: width, translateZ(0);
+    -moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	transition-duration: 1s;
+	z-index: 105;
+	position: relative;
 }
+	.right-basket.active {
+		width: 475px;
+	}
 	.row-right {
     	margin-right: -10px;
 	}
@@ -2104,11 +2138,30 @@ div.error, div[class*=" error-"] {
 		border-bottom: 1px solid #c2cece;
 		padding-bottom: 15px;
 	}
+		.right-basket h4.cart-header{
+			width: 100%;
+			display: inline-block;
+			margin-top: 15px;
+			border: 0;
+		}
 		.right-basket h4 a, .right-basket h4 a:hover {
-			padding-left: 18px;
-			background: url(../img/small-arrows-left.jpg) no-repeat 0 150%;
 			color: #032236;
 			text-decoration: none;
+		}
+		.cart-trigger .ico {
+			float: left;
+			height: 20px;
+			padding-left: 18px;
+			background: url(../img/small-arrows-left.jpg) no-repeat 0 100%;
+			-webkit-transition: all 0.5s;
+			-moz-transition: all 0.5s;
+			transition: all 0.5s;
+		}
+		.right-basket.active .cart-trigger .ico {
+			background: url(../img/small-arrows-left.jpg) no-repeat 8px 134%;
+			-webkit-transform: rotate(180deg);
+			-moz-transform: rotate(180deg);
+			transform: rotate(180deg);
 		}
 	.right-basket > p {
 		height: 100%;
@@ -2118,7 +2171,143 @@ div.error, div[class*=" error-"] {
     	font-size: 0.9em;
     	padding-top: 50%;
 	}
-
+	.cart-overflow {
+		width: 100%;
+		height: 0;
+		float: left;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		position: fixed;
+		z-index: 104;
+		background: #000;
+		opacity: 0;
+		-webkit-transition: opacity 1s;
+		-moz-transition: opacity 1s;
+		transition: opacity 1s;
+	}
+	.cart-overflow.active {
+		height: 100%;
+		visibility: visible;
+		opacity: 0.3;
+	}
+	.pos-basket {
+		z-index: 105;
+	}
+	.right-basket .header .time {
+		max-width: 76%;
+	}
+	.right-basket.active .header .time {
+		overflow: visible;
+	}
+	/*.right-basket .header .time text {
+		width: 100%;
+		height: 23px;
+		float: right;
+		left: -155px;
+		position: relative;
+		-webkit-transform: left 1s;
+		-moz-transform: left 1s;
+		transform: left 1s;
+	}*/
+	.right-basket.active .header .time text {
+		right: 0;
+	}
+	.right-basket .header .time text strong {
+		position: relative;
+		float: right;
+		right: -10%;
+		top: -20px;
+		right: -15%;
+	}
+	.right-basket.active .header .time text {
+		left: 0;
+	}
+	.right-basket .table-content .item-row {
+		padding: 10px;
+		overflow: hidden;
+	}
+	.right-basket .item-row .desc {
+		width: 27% 
+	}
+		.right-basket .item-row .price span {
+			margin: 0;
+		}
+	.right-basket .item-row .desc h5 { 
+		margin-bottom: 5px;
+	}
+	.right-basket .item-row .price {
+		width: 17%;
+		font-size: 0.9em;
+		-webkit-transition: width 1s linear;
+		-moz-transition: width 1s linear;
+		transition: width 1s linear;
+		margin-right: 10px;
+	}
+		.table-content .price.discount sub {
+			right: 70%;
+		}
+	.right-basket .item-row .price * {
+		float: right;
+		vertical-align: top;
+	}
+	.right-basket .item-row .price text {
+		line-height: 1.35em;
+		margin-top: 11px;
+	}
+	.right-basket .item-row .price.discount text {
+		line-height: 1.35em;
+		margin-top: 0;
+	}
+	.right-basket .item-row {
+		height: 61px;
+		overflow: hidden;
+	}
+	.right-basket .item-row .expand {
+		width: 100%;
+		height: 38px;
+		float: left;
+		overflow: hidden;
+		position: relative;
+		-webkit-transition: width 0.5s linear;
+		-moz-transition: width 0.5s linear;
+		transition: width 0.5s linear;
+	}
+		.right-basket .item-row .expand > div {
+			width: 435px;
+			height: 38px;
+			float: left;
+			top: 0;
+			left: 0;
+			position: absolute;
+		}
+	.right-basket.active .desc {
+		float: left;
+		margin-right: 0;
+	}
+	.right-basket .styled-select {
+		height: 30px;
+		padding: 0 5px 0 8px;	
+		background-position : calc(100% - 5px) 50%;
+		margin: 5px 0 0 0;
+	}
+	.right-basket .styled-select select {
+		width: 190%;
+		height: 30px;
+	}
+	.right-basket .list-small {
+		width: 13%;
+		margin-right: 10px;
+	}
+	.right-basket .list-big {
+		width: 33%;
+	}
+	@-moz-document url-prefix() {
+		.right-basket .styled-select select {
+		   	padding: 2px 0 0 0;
+		}
+	}
 @media screen and (min-width: 1025px) { 
 	.wrap .menu-link {
 		visibility: hidden;
