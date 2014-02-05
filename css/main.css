@@ -1843,6 +1843,10 @@ div.error, div[class*=" error-"] {
 	    border-bottom: 1px solid #c2cece;
 	    vertical-align: top;
 	}
+		.checkout-table .header.warning {
+			background: #d3322a;
+			color: #fff;
+		}
 		.checkout-table .header .ico {
 			height: 16px;
 			float: left;
@@ -1854,27 +1858,27 @@ div.error, div[class*=" error-"] {
 		.checkout-table .header .ico-questionmark {
 			height: 20px;
 			float: right;
-			background: url(../img/checkout-icons.jpg) no-repeat 0 100%;
+			background: url(../img/checkout-icons.jpg) no-repeat 0 -160px;
 			padding: 4px 0 0 21px;
 			display: inline-block;
+		}
+		.checkout-table .header.warning .ico {
+			background: url(../img/checkout-icons.jpg) no-repeat -5px -239px;
+		}
+		.checkout-table .header.warning .ico-questionmark { 
+			background: url(../img/checkout-icons.jpg) no-repeat 0 -200px;
 		}
 		.checkout-table .header .time {
 			float: left;
 			display: inline-block;
 			padding-top: 1px;
 		}
-		.checkout-table .header .time text {
-			width: 0;
+		.right-basket.active .table-content {
+			width: 100%;
 			float: left;
-			overflow: hidden;
+			padding: 19px;
+			
 		}
-		.right-basket.active
-.table-content {
-	width: 100%;
-	float: left;
-	padding: 19px;
-	
-}
 .checkout-table.right-basket .table-content {
 	padding: 0;
 }
@@ -2078,7 +2082,7 @@ div.error, div[class*=" error-"] {
 		display: inline-block;
 		height: 20px;
 		padding-left: 30px;
-		background: url(../img/checkout-icons.jpg) no-repeat -2px -122px;
+		background: url(../img/checkout-icons.jpg) no-repeat -1px -122px;
     	font-family: 'varelaregular';
     	line-height: 20px;
     	margin-right: 20px;
@@ -2196,11 +2200,20 @@ div.error, div[class*=" error-"] {
 		z-index: 105;
 	}
 	.right-basket .header .time {
-		max-width: 76%;
+		width: 76%;
+		height: 23px;
+		position: relative;
+		overflow: hidden;
 	}
 	.right-basket.active .header .time {
-		overflow: visible;
 	}
+		.right-basket .header .time > span {
+			position: absolute;
+			left: -155px;
+		}
+		.right-basket.active .header .time > span {
+			left: 0;
+		}
 	/*.right-basket .header .time text {
 		width: 100%;
 		height: 23px;
