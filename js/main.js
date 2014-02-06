@@ -1,3 +1,7 @@
+var wlf = {
+	app:{}
+};
+
 $(document).ready(function() {
 	if($('.menu-link').size() > 0){
     	$('.menu-link').bigSlide();

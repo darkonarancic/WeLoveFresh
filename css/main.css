@@ -21,6 +21,10 @@ h4 {
 	line-height: normal;
 	font-weight: normal;
 }
+h5 {
+	color: #003045;
+	
+}
 	h1.bold, h2.bold, h3.bold, h4.bold, h5.bold {
     	font-family: 'achille_fy_lblack';
 	}
@@ -323,17 +327,17 @@ textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
 .h-sep-small {
 	width: 100%;
 	float: left;
-	margin-top: 10px;
+	margin: 10px 0 0 0;
 }
 .h-sep-medium {
 	width: 100%;
 	float: left;
-	margin-top: 20px;
+	margin: 20px 0 0 0;
 }
 .h-sep-big {
 	width: 100%;
 	float: left;
-	margin-top: 30px;
+	margin: 30px 0 0 0;
 }
 
 .pos-rel {
@@ -408,7 +412,24 @@ textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
 	    	font-family: 'varelaregular';
 	    	padding: 3px 15px;
 		}
-	
+	.btn.btn-dark-blue {
+		background: #042335;
+    	font-family: 'achille_fy_lregular';
+    	color: #fff;
+    	font-size: 1.5em;
+	}
+	.btn.btn-dark-blue.btn-logo {
+		width: 100%;
+		text-align: left;
+    	font-family: 'achille_fy_lblack';
+    	line-height: 49px;
+    	padding: 9px 20px;
+	}
+		.btn.btn-dark-blue.btn-logo img {
+			float: left;
+			max-height: 49px;
+			margin-right: 20px;
+		}
 	/* icon buttons */
 		.btn-search-header {
 			width: 30px;
@@ -740,6 +761,13 @@ p.gray {
 	padding-left: 0;
 	text-align: left;
 }
+	.lbl.checkbox.normal {
+		color: #003045;
+		vertical-align: top;
+		padding: 0;
+		margin: 0;
+		line-height: 0.8em;
+	}
 	.lbl.checkbox input[type=checkbox] {
 		float: left;
 		margin: 0 10px 20px 0;
@@ -1469,7 +1497,7 @@ div.error, div[class*=" error-"] {
 	width: 100%;
 	float: left;
 	position: relative;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 	.validation-states-wrapper:after {
 		width: 100%;
@@ -1602,7 +1630,10 @@ div.error, div[class*=" error-"] {
         width: 800px;
         margin: 0 auto;
     }
-	
+	.page-small {
+		width: 480px;
+		margin: 0 auto;
+    }
 	.validation-states.two li:first-child .step {
 		margin-left: 30%;
 	}
@@ -1873,11 +1904,15 @@ div.error, div[class*=" error-"] {
 			display: inline-block;
 			padding-top: 1px;
 		}
+		.table-content {
+			width: 100%;
+			float: left;
+			padding: 19px;
+		}
 		.right-basket.active .table-content {
 			width: 100%;
 			float: left;
 			padding: 19px;
-			
 		}
 .checkout-table.right-basket .table-content {
 	padding: 0;
@@ -2010,7 +2045,7 @@ div.error, div[class*=" error-"] {
 			vertical-align: bottom;
 		}
 			.total-price li .questionmark {
-				background: url(../img/checkout-icons.jpg) no-repeat 0 100%;
+				background: url(../img/checkout-icons.jpg) no-repeat 0 -160px;
 				padding-left: 35px;
 			}
 			.total-price li strong {
@@ -2321,6 +2356,130 @@ div.error, div[class*=" error-"] {
 		   	padding: 2px 0 0 0;
 		}
 	}
+/* checkout account */
+*.big {
+	font-size: 1.1em !important;
+    font-family: 'varelaregular';
+}
+strong.big {
+	font-family: 'achille_fy_lblack';
+	margin-left: 15px;
+}
+.light-blue-wrapper {
+	display: inline-block;
+	background: #f3f4f6;
+	padding: 14px 20px;
+}
+.static-popover {
+	width: 100%;
+	float: left;
+	padding: 20px;
+	background: #e5e9ea;
+	position: relative;
+}
+	.static-popover:after {
+		content: "";
+		width: 12px;
+		height: 12px;
+		float: left;
+		position: absolute;
+		left: -6px;
+		top: 20px;
+		background: #e5e9ea;
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	.static-popover ul {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+		.static-popover ul li {
+			width: 100%;
+			float: left;
+			margin: 0 0 10px 0;
+			padding: 0;
+			list-style: none;
+			position: relative;
+    		font-family: 'varelaregular';
+    		font-size: 1em;
+    		padding-left: 16px;
+			color: #02253b;
+		}
+			.static-popover ul li span {
+				position: absolute;
+				left: 0px;
+				top: 5px;
+				font-size: 0.8em;
+			}
+.password-box {
+	display: none;
+}
+.link-gold, .link-gold:hover {
+	color: #ae8760;
+}
+.border-bottom {
+	width: 100%;
+	min-height: 1px;
+	float: left;
+	border-bottom: 1px solid #c2cecc;
+}
+.questionmark-button {
+	width: 20px;
+	height: 20px;
+	float: left;
+	background: url(../img/checkout-icons.jpg) no-repeat 0 -160px;
+}
+.questionmark-button.pos-abs {
+	position: absolute;
+	top: 10px; 
+	right: -20px;
+}
+.row-left {
+	margin-left: -10px;
+}
+.cal-ico, .clock-ico, .shiping-ico {
+	min-height: 20px;
+   	font-family: 'varelaregular';
+   	font-size: 0.8em;
+	vertical-align: bottom;
+}
+.cal-ico {
+	background: url(../img/checkout-icons.jpg) no-repeat 0 -279px;
+	padding: 2px 0 0 24px;
+}
+.clock-ico {
+	background: url(../img/checkout-icons.jpg) no-repeat 0 -317px;
+	padding: 2px 0 0 24px;
+}
+.shiping-ico {
+	background: url(../img/checkout-icons.jpg) no-repeat 0 -355px;
+	padding: 2px 0 0 25px;
+}
+.app-box {
+	width: 100%;
+	float: left;
+	padding: 30px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-shadow: 0 0 30px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 0 30px rgba(0,0,0,0.3);
+	box-shadow: 0 0 30px rgba(0,0,0,0.3);
+	background: #fff;
+}
+	.app-box h3 {
+		line-height: 1.5em;
+	}
+.checkout-successful-bg {
+	width: 1024px;
+	min-height: 770px;
+	margin: 0 auto;
+	background: url(../img/successful.jpg) no-repeat 100% 100%;
+}
+/* eof checkout account */
+
 @media screen and (min-width: 1025px) { 
 	.wrap .menu-link {
 		visibility: hidden;
