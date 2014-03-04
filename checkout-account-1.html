@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="css/main.css" />
 		<link rel="stylesheet" href="fonts/wlf-fonts.css" />
 		<link rel="stylesheet" href="css/menu-panel.css" />
+		<link rel="stylesheet" href="css/checkout-basket.css" />
 
 	</head>
 	<body>
@@ -78,110 +79,107 @@
 				<nav>
 					<div class="container">
 						<div class="col-xs-12">
-							<h2 class="bold text-center"><!-- <a href="#" class="link-back header">Terug</a> --> Bezorgspecificaties </h2>
+							<h2 class="bold text-center"> <a href="#" class="link-back header">Terug</a>  Check out </h2>
 						</div>
 					</div>
 				</nav>
-
+				
 			</header>
 			<section id="main">
 				<div class="container">
-					<div class="page">
+					<div class="page-big">
 						<div class="validation-states-wrapper">
-							<ul class="validation-states two">
-								<li class="active">
-									<span class="name">Zone</span>
+							<ul class="validation-states">
+								<li class="completed">
+									<span class="name">Winkelmandje</span>
 									<span class="step"></span>
-									<span class="status">Vught</span>
+									<span class="status"></span>
+								</li>
+								<li class="active">
+									<span class="name">Account</span>
+									<span class="step"></span>
+									<span class="status"></span>
 								</li>
 								<li class="">
-									<span class="name">Moment</span>
+									<span class="name">Betalen</span>
 									<span class="step"></span>
-									<span class="status">Vught</span>
+									<span class="status"></span>
 								</li>
 							</ul>
 						</div>
-						<div class="row-full">
-							<div class="alert alert-warning">
-								<button type="button" class="close" data-dismiss="alert" aria-hidden="true">
-									&times;
-								</button>
-								<span>Let op! Vergeet niet dit te doen.</span>
-								<p class="gray">
-									Change this and that and try again. Duis mollis, est non commodo luctus, nisi erat
-									porttitor ligula, eget lacinia odio sem nec elit. Cras mattis purus sit amet fermentum.
-								</p>
-							</div>
-						</div>
-						<div class="row-full">
-							<h2 class="bold clear-top clear-botom pos-rel">
-								Kies je regio/zone
-								<span class="styled-arrow"></span>
-							</h2>
-							<p class="normal"> 
-								Etiam porta sem malesuada magna mollis eusimod. Maecenas faucibus mollis interdum.
-							</p>
-							<div class="row-full">
-								<div class="row">
-									<div class="col-xs-6 text-center">
-										<div class="blue-box">
-											<h2 class="white bold clear-top clear-botom">
-											Thuis
-											</h2>
-											<h4 class="clear-botom thin">Frits van zelst Straat 10<br/>1234 AB Vught</h4>
-											<p class="small light-blue">
-												(Zone-code en stad)
-											</p>
-										</div>
-									</div>
-									<div class="col-xs-6 text-center">
-										<div class="blue-box">
-											<h2 class="white bold clear-top clear-botom">
-												Thuis
-											</h2>
-											<h4 class="clear-botom thin">Willem De Zwijgerlaan 32A<br/>1234 AB Vught</h4>
-											<p class="small light-blue">
-												(Zone-code en stad)
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="h-sep-medium"></div>
-							<div class="row-full">
-								<h4 class="bold clear-botom">Anders, namelijk</h4>
-							</div>
-							<form id="filterStepsForm" method="post" action="">
-								<div class="row-full h-sep-small">
-									<div class="col-xs-3">
-										<div class="row">
-											<span class="lbl font">Postcode &amp; huisnr.</span>
-										</div>
-									</div>
-									<div class="col-xs-9">
-										<div class="row">
-											<div class="col-xs-6">
-												<input type="text" class="txt-border siblings" name="postcode-1">
-											</div>
-											<div class="col-xs-3">
-												<input type="text" class="txt-border siblings" name="postcode-2">
-											</div>
-											<div class="col-xs-3">
-												<input type="text" class="txt-border siblings" name="postcode-3">
-											</div>
-										</div>
-									</div>
+						<div class="col-xs-8">
+							<div class="row">
+								<h2 class="bold">MiniTix portomonee</h2>
+								<div class="light-blue-wrapper">
+									<span class="big">Mobiel telefoonnummer</span>
+									<strong class="big">
+										0612345678
+									</strong>
 								</div>
 								<div class="h-sep-medium"></div>
-								<div class="row-full">
-									<div class="col-xs-3"></div>
-									<div class="col-xs-9">
-										<input type="submit" class="btn btn-orange col-xs-5" form="filterStepsForm" value="Volgende" />
+								<p class="big">
+									We maken een MiniTix portomeonee aan, gekoppeld aan
+									bovengenoemd mobiele nummer. Je MiniTix wachtwoord is standaard
+									gelijk aan die van Wijhoudenvanvers profiel.
+								</p>
+								<div class="h-sep-medium"></div>
+								<form id="checkoutAccountForm" method="post" action="">
+									<div class="row-full">
+											<label class="lbl checkbox normal big">
+												<input type="checkbox" id="chkPassword" name="" />
+												Ik wil graag een ander MiniTix wachtwoord instellen
+											</label>
 									</div>
-								</div>
-							</form>
-							<div class="h-sep-medium"></div>
+									<div class="row-full password-box" id="passwordBox">
+										<div class="row-full h-sep-small">
+											<div class="col-xs-4">
+												<span class="lbl text-right big">Wachtwoord</span>
+											</div>
+											<div class="col-xs-7">
+												<input type="password" class="txt-border" id="password" name="password"/>
+											</div>
+										</div>
+										<div class="row-full h-sep-small">
+											<div class="col-xs-4">
+												<span class="lbl text-right big">Herhaal wachtwoord</span>
+											</div>
+											<div class="col-xs-7">
+												<input type="password" class="txt-border" name="re-password" />
+											</div>
+										</div>
+										
+										<div class="h-sep-small"></div>
+									</div>
+									<div class="row-full">
+										<div class="col-xs-4"> </div>
+										<div class="col-xs-6"> 
+											<input type="submit" class="btn btn-orange" value="Volgande" />
+										</div>
+									</div>
+								</form>
+							</div>
 						</div>
+						<div class="col-xs-4">
+							<div class="row">
+								<div class="static-popover">
+									<h4 class="bold clear-top">Wat is MiniTix</h4>
+									<p class="">
+										In porta vitae turpis ut condimentum. 
+										Curabitur varius urna non nulla
+										adipiscing, vitae vestibulum turpis rutrum.
+										Vivamus nibh nunc, condimentum vel ante
+										et, suscipit bibendum tellus.
+										Sed pretium auctor libero viverra pretium. Ut in dui
+									</p>
+									<p class="">
+										Curabitur varius urna non nulla adipiscing, vitae vestibulum turpis rutrum.
+									</p>
+									<img src="img/minitix.jpg" alt="minitix" />&nbsp;
+									<img src="img/minitix.jpg" alt="minitix" class="" />
+								</div>
+							</div>
+						</div>
+						<div class="h-sep-medium"></div>
 					</div>
 				</div>
 			</section>
@@ -266,5 +264,5 @@
 	<script src="js/jquery.big-slide.js"></script>
 	<script src="js/jquery.validate.js"></script>
 	<script src="js/main.js"></script>
-	<script src="js/filter-steps.js"></script>
+	<script src="js/checkout-account.js"></script>
 </html>

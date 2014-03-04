@@ -78,6 +78,7 @@
     	if(menu._state != 'open'){
     	  if(settings.triggerRes < $(window).width()){
 		  	menu.css(settings.side, '-' + (width - settings.sideStay) + "px");
+		  	$('body').removeAttr('style');
 	      }
 	      else {
 	      	menu.css(settings.side, '-' + width + "px");

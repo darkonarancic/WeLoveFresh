@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bafa989e-61d3-40f5-a42a-0191b46942cf" name="Default" comment="Merge branch 'master' of https://github.com/darkonarancic/WeLoveFresh&#10;&#10;Conflicts:&#10;&#9;img/demo/b3.jpg&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/appStore-btn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/basket-icon-discount.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cancle-btn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/demo/ch-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/demo/ch-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/demo/ch-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/checkout-icons.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/googlePlay-btn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/ideal-btn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/minitix-btn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/minitix.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/product-basket-ico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/demo/s1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/demo/s2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/demo/s3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/demo/s4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/demo/s5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/demo/s6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/demo/s7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/demo/s8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/demo/sb-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/demo/sd-1-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/successful.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/WeLoveFresh.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-items-empty.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-items-full.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/checkout-account-1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/checkout-account-password-1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/checkout-account.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/checkout-basket.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/checkout-basket.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/checkout-pay.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/checkout-sign-In.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/checkout-successful.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/jquery.bxslider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.bxslider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landingpage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopping-cart-time-slot.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms-verification.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/with-basket.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/filter-list-arrows.png" afterPath="$PROJECT_DIR$/img/filter-list-arrows.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filtering-step-1-logged-user.html" afterPath="$PROJECT_DIR$/filtering-step-1-logged-user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filtering-step-1-not-logged-in.html" afterPath="$PROJECT_DIR$/filtering-step-1-not-logged-in.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filtering-step-3.html" afterPath="$PROJECT_DIR$/filtering-step-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.big-slide.js" afterPath="$PROJECT_DIR$/js/jquery.big-slide.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/menu-panel.css" afterPath="$PROJECT_DIR$/css/menu-panel.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-detail.html" afterPath="$PROJECT_DIR$/product-detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subcategory-detail.html" afterPath="$PROJECT_DIR$/subcategory-detail.html" />
+    </list>
+    <ignored path="WeLoveFresh.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="WeLoveFresh" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.7703125">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="product-detail.html" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/product-detail.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="203" column="115" selection-start="6966" selection-end="6966" vertical-scroll-proportion="0.56356734" vertical-offset="3763" max-vertical-offset="9760">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="tooltip.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/tooltip.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="5" column="17" selection-start="76" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/main.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="238" column="18" selection-start="4799" selection-end="4799" vertical-scroll-proportion="-0.45683452" vertical-offset="5014" max-vertical-offset="53160">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/cart-items-full.html" />
+        <option value="$PROJECT_DIR$/shopping-cart-time-slot.html" />
+        <option value="$PROJECT_DIR$/checkout-basket.html" />
+        <option value="$PROJECT_DIR$/sms-verification.html" />
+        <option value="$PROJECT_DIR$/subcategory-detail.html" />
+        <option value="$PROJECT_DIR$/landingpage.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/js/tooltip.js" />
+        <option value="$PROJECT_DIR$/product-detail.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeLoveFresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeLoveFresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeLoveFresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bafa989e-61d3-40f5-a42a-0191b46942cf" name="Default" comment="" />
+      <created>1393934032429</created>
+      <updated>1393934032429</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1296875" sideWeight="0.67099565" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Merge branch 'master' of https://github.com/darkonarancic/WeLoveFresh&#10;&#10;Conflicts:&#10;&#9;img/demo/b3.jpg&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/darkonarancic/WeLoveFresh&#10;&#10;Conflicts:&#10;&#9;img/demo/b3.jpg&#10;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/shopping-cart-time-slot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="690" column="53" selection-start="21914" selection-end="21914" vertical-scroll-proportion="-7.611111" vertical-offset="13389" max-vertical-offset="20940">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkout-basket.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="338" column="70" selection-start="10371" selection-end="10371" vertical-scroll-proportion="-9.574074" vertical-offset="6243" max-vertical-offset="9160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sms-verification.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="69" selection-start="4403" selection-end="4403" vertical-scroll-proportion="0.71841156" vertical-offset="2283" max-vertical-offset="5120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landingpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="97" selection-start="5038" selection-end="5038" vertical-scroll-proportion="0.30373833" vertical-offset="2640" max-vertical-offset="6460">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subcategory-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="196" column="33" selection-start="5888" selection-end="5888" vertical-scroll-proportion="0.38146812" vertical-offset="3603" max-vertical-offset="14520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart-items-full.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="59" selection-start="508" selection-end="563" vertical-scroll-proportion="-3.7037036" vertical-offset="0" max-vertical-offset="20160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="238" column="18" selection-start="4799" selection-end="4799" vertical-scroll-proportion="-0.45683452" vertical-offset="5014" max-vertical-offset="53160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/tooltip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="76" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="203" column="115" selection-start="6966" selection-end="6966" vertical-scroll-proportion="0.56356734" vertical-offset="3763" max-vertical-offset="9760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
