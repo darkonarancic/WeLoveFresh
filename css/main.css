@@ -1347,8 +1347,8 @@ div.error, div[class*=" error-"] {
 		text-decoration: line-through;
 	}
 	.img-footer-ico {
-		width: 26px;
-		height: 26px;
+		width: 30px;
+		height: 30px;
 		display: inline-block;
 		background: url(../img/product-detail-ico.png) no-repeat 0 0;
 		margin-top: 5px;
@@ -1457,11 +1457,28 @@ div.error, div[class*=" error-"] {
         -moz-transform: rotate(45deg) skew(-20deg, -20deg);
         transform: rotate(45deg) skew(-20deg, -20deg);
         z-index: 99;
-        bottom: 33px;
+        top: -20px;
         left: 5px;
         border-top: 0;
         border-left: 0;
 	}
+    .tool-tip.bottom-arrow:hover:before {
+        width: 15px;
+        height: 15px;
+        content: "";
+        position: absolute;
+        border: 1px solid #003045;
+        background: #fff;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg) skew(-20deg, -20deg);
+        transform: rotate(45deg) skew(-20deg, -20deg);
+        z-index: 99;
+        top: auto;
+        bottom: -18px;
+        left: 5px;
+        border-bottom: 0;
+        border-right: 0;
+    }
 
 /* eof product details */
 
@@ -2633,6 +2650,40 @@ strong.big {
 	background: url(../img/successful.jpg) no-repeat 100% 100%;
 }
 /* eof checkout account */
+
+/* tooltip */
+.tooltipBox {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #003045;
+    padding: 10px;
+    z-index: 98;
+    border: 1px solid #003045;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: none;
+    font-size: 0.8em;
+}
+    .tooltipBox.pos-top {
+        bottom: 52px;
+    }
+    .tooltipBox.pos-bottom {
+        top: 46px;
+    }
+    .tooltipBox.wide {
+        width: 100%;
+        left: 0;
+    }
+.tooltipBox span.ico {
+    font-size: 1.5em;
+    clear: right;
+    margin-left: 10px;
+    vertical-align: bottom;
+}
+/* eof tooltip */
 
 @media screen and (min-width: 1025px) {
 	.wrap .menu-link {

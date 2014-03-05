@@ -3,19 +3,33 @@
  */
 ;
 var defaults = {
-    itemClass: ".tooltip-custom"
+    itemClass: ".tool-tip",
+    tooltipClass: ".tooltipBox"
 };
 (function($){
-    if(typeof $.fn.tooltip !== 'function'){
-        $.fn.tooltip = function(options){
+    if(typeof $.fn.customTooltip === 'undefined'){
+        $.fn.customTooltip = function(options){
            return this.each(function(){
-                var settings = $.extend({}, options, defaults);
-               console.log(settings);
+               var settings = $.extend({}, options, defaults);
+
+               $(this).hover(
+                   function(){
+                       $(settings.tooltipClass).insertAfter($(this));
+                       $(settings.tooltipClass)
+                           .addClass($(this).attr('data-class'))
+                           .html($(this).attr('data-title'))
+                           .show();
+                   },function(){
+                       $(settings.tooltipClass)
+                           .removeClass($(this).attr('data-class')).html("")
+                           .hide();
+                   }
+               );
            });
         };
+
+        //init custom tooltip
+        $(defaults.itemClass).customTooltip();
     }
 }($));
 
-$(function(){
-    $(defaults.itemClass).tooltip();
-});
