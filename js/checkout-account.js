@@ -58,12 +58,18 @@ $(function() {
 				houseNo : {
 					required : true
 				},
-				addition : {
-					required : true
-				},
 				phone : {
 					required : true
-				}
+				},
+		        day: {
+		        	required: true
+		        },
+		        month: {
+		        	required: true
+		        },
+		        year: {
+		        	required: true
+		        }
 			},
 			showErrors : function(errorMap, errorList) {
 				if (this.numberOfInvalids() > 0) {

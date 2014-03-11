@@ -30,4 +30,9 @@ $(document).ready(function() {
     		$('.cart-overflow').toggleClass('active');
     	});
     }
+    if($('input:checkbox').size() > 0){
+		$('input:checkbox').iCheck({
+	    	checkboxClass: 'icheckbox_flat-green'
+  		});
+	}
 });
