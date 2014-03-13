@@ -2739,6 +2739,23 @@ strong.big {
 			padding: 0;
 			margin: 0;
 		}
+/* overview oreder */
+.table-box {
+	width: 100%;
+	float: left;
+	border: 1px solid #cfd4d7;
+	padding: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.trunk-ico {
+	min-height: 21px;
+	background: url(../img/trunk-ico.jpg) no-repeat 0 0;
+	padding: 0 0 0 36px;
+	color: #003045;
+}
+/* eof overview order */
 @media screen and (min-width: 1025px) {
 	.wrap .menu-link {
 		visibility: hidden;
