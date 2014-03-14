@@ -15,6 +15,9 @@ h2 {
 	font-weight: normal;
 	margin: 17px 0;
 }
+h3 {
+    color: #003045;
+}
 h4 {
 	font-size: 1.3em;
 	color: #003045;
@@ -443,6 +446,29 @@ textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
 			max-height: 49px;
 			margin-right: 20px;
 		}
+    .btn.btn-border {
+        min-height: 0;
+        color: #373038;
+        padding: 8px 10px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+    }
+    .btn.btn-border.btn-border-black {
+        border: 1px solid #000;
+        line-height: 1em;
+    }
+        .btn.btn-blue-sharp-edges {
+            min-height: 0;
+            color: #373038;
+            padding: 8px 10px;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+            background: #003146;
+            color: #fff;
+            line-height: 1em;
+        }
 	/* icon buttons */
 		.btn-search-header {
 			width: 30px;
@@ -2058,6 +2084,10 @@ div.error, div[class*=" error-"] {
 			float: left;
 			padding: 19px;
 		}
+            .table-content .table-header {
+                border-bottom: 1px solid #c3ccd1;
+                padding: 0 9px;
+            }
 		.right-basket.active .table-content {
 			width: 100%;
 			float: left;
@@ -2097,6 +2127,9 @@ div.error, div[class*=" error-"] {
 	padding: 19px 0;
 	border-bottom: 1px solid #c3ccd1;
 }
+    .table-content .item-row h4 {
+        font-size: 1em;
+    }
 	.table-content .item-row p {
 		font-size: 0.8em;
 	}
@@ -2144,6 +2177,14 @@ div.error, div[class*=" error-"] {
 		float: left;
 		position: relative;
 	}
+        .table-content .price-bold {
+            font-weight: bold;
+            font-family: 'achille_fy_lblack';
+            font-size: 1.2em;
+        }
+        .table-content .light-blue {
+            font-family: 'varelaregular';
+        }
 		.table-condensed .price.discount {
 			line-height: normal;
 		}
@@ -2748,14 +2789,196 @@ strong.big {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+    margin-bottom: 20px;
+    background: #fff;
+    position: relative;
 }
+    .table-box.success {
+        background: #def1de;
+    }
+    .table-box.disabled:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #fff;
+        opacity: 0.5;
+    }
 .trunk-ico {
 	min-height: 21px;
 	background: url(../img/trunk-ico.jpg) no-repeat 0 0;
 	padding: 0 0 0 36px;
 	color: #003045;
 }
+.alert-warning.arrow {
+    position: relative;
+}
+.alert-warning.arrow:after {
+    width: 12px;
+    height: 12px;
+    content: " ";
+    position: absolute;
+    top: -6px;
+    left: 30%;
+    background: #fff1ba;
+    border: 1px solid #ffe482;
+    border-right: 0;
+    border-bottom: 0;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.alert-track {
+    background: #eaebed;
+    border: 1px solid #d0d5d8;
+    vertical-align: middle;
+}
+.alert-track.arrow {
+    position: relative;
+}
+    .alert-track.arrow:after {
+        width: 12px;
+        height: 12px;
+        content: " ";
+        position: absolute;
+        top: -6px;
+        left: 30%;
+        background: #eaebed;
+        border: 1px solid #d0d5d8;
+        border-right: 0;
+        border-bottom: 0;
+        -ms-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    .alert.arrow p {
+        min-height: 32px;
+        font-size: 0.95em;
+        padding: 5px 0 0 0;
+    }
+        .alert.arrow p .btn {
+            margin: -7px 0 0 10px;
+        }
+.alert-danger.arrow {
+    position: relative;
+}
+.alert-track.arrow.first:after,
+.alert-danger.arrow.first:after,
+.alert-warning.arrow.first:after {
+    left: 2.5%;
+}
+.alert-danger.arrow:after {
+    width: 12px;
+    height: 12px;
+    content: " ";
+    position: absolute;
+    top: -6px;
+    left: 30%;
+    background: #fadcda;
+    border: 1px solid #f4c8c7;
+    border-right: 0;
+    border-bottom: 0;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
 /* eof overview order */
+
+/* order detail */
+.table-content .img-wrapper-small {
+    width: 50px;
+    height: 50px;
+    float: left;
+    border: 1px solid #c7d1d0;
+    margin-right: 10px;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+}
+    .table-content .img-wrapper-small img {
+        margin: 0;
+        display: inline-block;
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+.ico-left .ico-hat {
+    width: 3%;
+    height: 24px;
+    display: inline-block;
+    background: url(../img/ico-1.png) no-repeat 0 1px;
+    margin: 10px 0 0 0;
+}
+.ico-right .ico-account {
+    width: 3.5%;
+    height: 24px;
+    float: right;
+    background: url(../img/ico-1.png) no-repeat -35px 0px;
+    margin: 10px 0 0 0;
+}
+    .ico-left .info-box,
+    .ico-right .info-box {
+        width: 95%;
+        background: #e5eaed;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+        font-size: 0.8em;
+        padding: 15px;
+        position: relative;
+        font-family: 'varelaregular';
+    }
+    .light-gray {
+        color: #a3acb1;
+    }
+    .info-box .big {
+        color: #003044;
+        font-size: 1.4em;
+    }
+    .bold {
+        font-weight: bold;
+    }
+    .ico-left .info-box {
+        float: right;
+    }
+        .ico-left .info-box:after {
+            width: 14px;
+            height: 14px;
+            content: " ";
+            -ms-transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+            background: #e5eaed;
+            position: absolute;
+            top: 17px;
+            left: -7px;
+        }
+
+    .ico-right .info-box {
+        float: left;
+        width: 89.5%;
+        margin-left: 5%;
+    }
+        .ico-right .info-box:after {
+            width: 14px;
+            height: 14px;
+            content: " ";
+            -ms-transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+            background: #e5eaed;
+            position: absolute;
+            top: 17px;
+            right: -7px;
+        }
+/* eof order details */
 @media screen and (min-width: 1025px) {
 	.wrap .menu-link {
 		visibility: hidden;

@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bafa989e-61d3-40f5-a42a-0191b46942cf" name="Default" comment="Merge branch 'master' of https://github.com/darkonarancic/WeLoveFresh&#10;&#10;Conflicts:&#10;&#9;img/demo/b3.jpg&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cart-items-full.html" afterPath="$PROJECT_DIR$/cart-items-full.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category-overview.html" afterPath="$PROJECT_DIR$/category-overview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/order-detail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-detail.html" afterPath="$PROJECT_DIR$/product-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/tooltip.js" afterPath="$PROJECT_DIR$/js/tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/overview-orders.html" afterPath="$PROJECT_DIR$/overview-orders.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WeLoveFresh.iws" />
@@ -29,45 +27,29 @@
     <favorites_list name="WeLoveFresh" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7701271">
+    <splitter split-orientation="horizontal" split-proportion="0.4578125">
       <split-first>
         <leaf>
-          <file leaf-file-name="product-detail.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/product-detail.html">
+          <file leaf-file-name="order-detail.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/order-detail.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="246" column="62" selection-start="9843" selection-end="9843" vertical-scroll-proportion="-8.092592" vertical-offset="4483" max-vertical-offset="9840">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="category-overview.html" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/category-overview.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="187" column="26" selection-start="4734" selection-end="4734" vertical-scroll-proportion="0.3025701" vertical-offset="3481" max-vertical-offset="5700">
+                <state line="127" column="39" selection-start="4042" selection-end="4042" vertical-scroll-proportion="0.47533092" vertical-offset="725" max-vertical-offset="3620">
                   <folding>
-                    <element signature="tag#div#0;tag#div#2;tag#div#0;tag#section#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+                    <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
+                    <element signature="tag#header#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+                    <element signature="tag#footer#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="tooltip.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/tooltip.js">
+          <file leaf-file-name="overview-orders.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/overview-orders.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="47" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="820">
+                <state line="264" column="57" selection-start="11172" selection-end="11172" vertical-scroll-proportion="-67.586205" vertical-offset="3320" max-vertical-offset="7640">
                   <folding>
-                    <element signature="n#!!doc" expanded="true" />
+                    <element signature="tag#footer#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="autosuggest.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/Levi-Projects/git/EMTE-Loyalty/site/src/main/webapp/js/autosuggest.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="41" selection-start="891" selection-end="891" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="3680">
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -76,10 +58,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2659" column="15" selection-start="54569" selection-end="54569" vertical-scroll-proportion="0.15930232" vertical-offset="53043" max-vertical-offset="54180">
+                <state line="2966" column="24" selection-start="61515" selection-end="61515" vertical-scroll-proportion="0.66101694" vertical-offset="58735" max-vertical-offset="60060">
                   <folding />
                 </state>
               </provider>
@@ -112,9 +94,11 @@
         <option value="$PROJECT_DIR$/subcategory-detail.html" />
         <option value="$PROJECT_DIR$/landingpage.html" />
         <option value="$PROJECT_DIR$/js/tooltip.js" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/product-detail.html" />
         <option value="$PROJECT_DIR$/category-overview.html" />
+        <option value="$PROJECT_DIR$/overview-orders.html" />
+        <option value="$PROJECT_DIR$/order-detail.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -176,6 +160,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -242,8 +227,9 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1296875" sideWeight="0.67099565" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14583333" sideWeight="0.67099565" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -252,7 +238,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -275,33 +260,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/tooltip.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="46" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="700">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Levi-Projects/git/EMTE-Loyalty/site/src/main/webapp/js/autosuggest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="41" selection-start="891" selection-end="891" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="3680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="203" column="115" selection-start="6966" selection-end="6966" vertical-scroll-proportion="0.0" vertical-offset="3763" max-vertical-offset="9760">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/tooltip.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="17" selection-start="76" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="520">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -315,11 +275,6 @@
     <entry file="file://$PROJECT_DIR$/shopping-cart-time-slot.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="690" column="53" selection-start="21914" selection-end="21914" vertical-scroll-proportion="-7.611111" vertical-offset="13389" max-vertical-offset="20940" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checkout-basket.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="338" column="70" selection-start="10371" selection-end="10371" vertical-scroll-proportion="-9.574074" vertical-offset="6243" max-vertical-offset="9160" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sms-verification.html">
@@ -342,6 +297,29 @@
         <state line="10" column="59" selection-start="508" selection-end="563" vertical-scroll-proportion="-3.7037036" vertical-offset="0" max-vertical-offset="20160" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/product-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="246" column="62" selection-start="9843" selection-end="9843" vertical-scroll-proportion="0.0" vertical-offset="4483" max-vertical-offset="9840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/category-overview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="20" selection-start="869" selection-end="869" vertical-scroll-proportion="1.0507246" vertical-offset="0" max-vertical-offset="5700">
+          <folding>
+            <element signature="tag#div#0;tag#div#2;tag#div#0;tag#section#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/tooltip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="47" selection-start="234" selection-end="234" vertical-scroll-proportion="-0.043771043" vertical-offset="186" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Levi-Projects/git/EMTE-Loyalty/site/src/main/webapp/js/autosuggest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="41" selection-start="891" selection-end="891" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3680">
@@ -349,35 +327,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/tooltip.js">
+    <entry file="file://$PROJECT_DIR$/checkout-basket.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="47" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="820">
+        <state line="320" column="45" selection-start="0" selection-end="13660" vertical-scroll-proportion="0.18341121" vertical-offset="6243" max-vertical-offset="9160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/wlf-fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="12" selection-start="492" selection-end="526" vertical-scroll-proportion="0.32220945" vertical-offset="0" max-vertical-offset="1820">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overview-orders.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="264" column="57" selection-start="11172" selection-end="11172" vertical-scroll-proportion="-67.586205" vertical-offset="3320" max-vertical-offset="7640">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="tag#footer#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="39" selection-start="4042" selection-end="4042" vertical-scroll-proportion="0.47533092" vertical-offset="725" max-vertical-offset="3620">
+          <folding>
+            <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#header#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#footer#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2659" column="15" selection-start="54569" selection-end="54569" vertical-scroll-proportion="0.15930232" vertical-offset="53043" max-vertical-offset="54180">
+        <state line="2966" column="24" selection-start="61515" selection-end="61515" vertical-scroll-proportion="0.66101694" vertical-offset="58735" max-vertical-offset="60060">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="246" column="62" selection-start="9843" selection-end="9843" vertical-scroll-proportion="-8.092592" vertical-offset="4483" max-vertical-offset="9840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/category-overview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="187" column="26" selection-start="4734" selection-end="4734" vertical-scroll-proportion="0.3025701" vertical-offset="3481" max-vertical-offset="5700">
-          <folding>
-            <element signature="tag#div#0;tag#div#2;tag#div#0;tag#section#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
