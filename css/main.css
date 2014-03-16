@@ -2806,6 +2806,9 @@ strong.big {
         background: #fff;
         opacity: 0.5;
     }
+    .table-box p {
+        margin-bottom: 0;
+    }
 .trunk-ico {
 	min-height: 21px;
 	background: url(../img/trunk-ico.jpg) no-repeat 0 0;
@@ -2853,6 +2856,9 @@ strong.big {
         -webkit-transform: rotate(45deg);
         transform: rotate(45deg);
     }
+    .alert.arrow {
+        margin-top: 6px;
+    }
     .alert.arrow p {
         min-height: 32px;
         font-size: 0.95em;
@@ -2866,7 +2872,8 @@ strong.big {
 }
 .alert-track.arrow.first:after,
 .alert-danger.arrow.first:after,
-.alert-warning.arrow.first:after {
+.alert-warning.arrow.first:after,
+.alert-success.arrow.first:after{
     left: 2.5%;
 }
 .alert-danger.arrow:after {
@@ -2884,7 +2891,24 @@ strong.big {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-
+.alert-success.arrow {
+    position: relative;
+}
+.alert-success.arrow:after {
+    width: 12px;
+    height: 12px;
+    content: " ";
+    position: absolute;
+    top: -6px;
+    left: 30%;
+    background: #def1de;
+    border: 1px solid #b9e2b8;
+    border-right: 0;
+    border-bottom: 0;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
 /* eof overview order */
 
 /* order detail */
