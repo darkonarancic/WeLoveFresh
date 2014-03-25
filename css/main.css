@@ -2177,11 +2177,23 @@ div.error, div[class*=" error-"] {
 		float: left;
 		position: relative;
 	}
+		.table-content .price.discount.row-full {
+			width: 100%;
+			margin-top: 20px;
+		}
+		.table-content .price.row-full {
+			width: 100%;
+			margin-top: 16px;
+		}
         .table-content .price-bold {
             font-weight: bold;
             font-family: 'achille_fy_lblack';
             font-size: 1.2em;
         }
+        	.table-content .dimensions {
+        		margin-top: 22px;
+        		display: block;
+        	}
         .table-content .light-blue {
             font-family: 'varelaregular';
         }
@@ -2228,6 +2240,10 @@ div.error, div[class*=" error-"] {
 			bottom: 10px;
 			display: block;
 		}
+			.table-content .price.discount.row-full sub {
+				right: 45%;
+				bottom: 7px;
+			}
 	.btn-cancel {
 		width: 10px;
 		height: 10px;
@@ -3032,7 +3048,23 @@ strong.big {
 		.address strong {
 			font-family: 'achille_fy_lblack';
 		}
+.map-div {
+	width: 100%;
+	height: 640px;
+}
 /* eof order track */
+
+/* time slot expired */
+
+	.link {
+		color: #003045;
+		text-decoration: underline;
+	}
+	.link.sep-right {
+		margin-right: 15px;
+	}
+
+/* eof time slot expired */
 
 @media screen and (min-width: 1025px) {
 	.wrap .menu-link {
