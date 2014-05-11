@@ -35,4 +35,20 @@ $(document).ready(function() {
 	    	checkboxClass: 'icheckbox_flat-green'
   		});
 	}
+    if($('.page-faq').size() > 0){
+        $('.table-content.accordion').bind('click', function(e){
+            if(!$('.table-content.accordion').is(':animated')){
+                if(!$('.accordion-details',this).is(':visible')) {
+                    $('.accordion-details').not(this).slideUp(500);
+                    $('.table-content.accordion').not(this).removeClass('active');
+                    $(this).addClass('active');
+                    $('.accordion-details',this).slideDown(500);
+                }
+                else {
+                    $(this).removeClass('active');
+                    $('.accordion-details',this).slideUp(500);
+                }
+            }
+        });
+    }
 });
